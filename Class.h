@@ -1,12 +1,14 @@
 //Mahmoud Refaie 900221164
 #include <iostream>
 #include <cmath>
+#include <cstdlib>
+#include <time.h>
 using namespace std;
 
 class point
 {
  public:
-point(){
+ point(){
 x=0;
 y=0;
 }// initialize x and y to 0
@@ -22,8 +24,8 @@ void setX(float b){
 x=b;
 }
 
-void setY(float b){
-y=b;
+void setY(float i){
+y=i;
 }
 
 float getX(){
